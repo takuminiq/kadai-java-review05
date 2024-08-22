@@ -21,7 +21,7 @@ public class Review05 {
             Class.forName("com.mysql.cj.jdbc.Driver");
             // 2. DBと接続する
       con = DriverManager.getConnection(
-            "jdbc:mysql://localhost/kadaidb.person?useSSL=false&allowPublicKeyRetrieval=true", // データベースのURL
+            "jdbc:mysql://localhost/kadaidb?useSSL=false&allowPublicKeyRetrieval=true", // データベースのURL
             "root",// データベースのユーザー名
             "evecyan0930Reo"); // データベースのパスワード
             // 4. DBとやりとりする窓口の作成
